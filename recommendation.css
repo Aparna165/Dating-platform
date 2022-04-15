@@ -1,0 +1,197 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+h6{
+  padding:16px 30px 16px 27px;
+  margin-right: 180px;
+  background-color: #FF3366;
+}
+.detail{
+  position: absolute;
+  left: 40px;
+  bottom: 30px;
+}
+.messageicon{
+  font-size: 4.5rem;
+  color:#FF3366;
+margin: 80px 80px 30px 160px;
+}
+.title-image{
+  border-radius: 40px;
+  height: 550px;
+  width: 450px;
+  padding: 20px;
+}
+.profile-image{
+  text-align: center;
+  height:320px;
+  width:100%;
+  border-radius: 20px;
+}
+.button1{
+  color:white;
+  padding: 2.2px;
+  font-size: 1rem;
+border-radius: 30px;
+display: inline-block;
+border: 1px solid;
+border-color: #fff;
+width: 160px;
+background-color: #FF3366;
+}
+.add-padding{
+  margin-top: -10px;
+  padding: 9px 30px 30px 30px;
+  margin-right: 180px;
+  background-color: #fff;
+  height: 470px;
+}
+.button1:hover{
+  background-color: #fff;
+  color: #FF3366;
+}
+.btn-group{
+  margin-right: 10px;
+  font-weight: bold;
+  background-color: #fff;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #FF3366;
+  color: #FF3366;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+.btn-group:hover {
+  background-color: white;
+}
+.own-image{
+  border-radius: 100%;
+  height: 45px;
+  width:45px;
+  padding: 3.5px;
+
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext {
+  visibility: visible;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.icon-setting{
+  position: absolute;
+  top:25px;
+  left:410px;
+  font-size: 1.5rem;
+  color:white;
+}
+
+#text-padding{
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  height:565px;
+  width: 450px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width:5px;
+  border-color:black;
+  background-color: #fff;
+}
+.username{
+  padding-left: 24px;
+  padding-right: 37px;
+  padding-top: 8px;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  color:#fff;
+
+}
+.apart{
+  padding-left: 24px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.username:hover{
+  color: black;
+    text-decoration: none;
+}
+.username:link{
+    text-decoration: none;
+}
+.gendericon{
+  margin-top: 10px;
+  color:#2583FF;
+  font-size: 1.4rem;
+  float: right;
+}
+.iconheart{
+  margin:5px 10px;
+  color:#39EA96;
+  font-size: 3.8rem;
+  border-radius: 100%;
+}
+.iconheart:hover{
+background-color: #39EA96;
+color:#fff;
+}
+.iconcut{
+  margin:5px 10px;
+  color:red;
+  font-size: 3.8rem;
+  border-radius: 100%;
+}
+.iconcut:hover{
+background-color: red;
+color:#fff;
+}
+.iconload{
+  margin:5px 10px 5px 55px;
+  color:#FF7425;
+  font-size: 3.2rem;
+  border-radius: 100%;
+}
+.iconloc{
+  margin:5px 10px;
+  color:#2583FF;
+  font-size: 3.2rem;
+  border-radius: 100%;
+}
+.iconloc:hover{
+background-color: #2583FF;
+color:#fff;
+}
+@media (max-width:800px) {
+h6{
+  margin: 0;
+}
+.title-image{
+  margin: 0px;
+  padding:0px;
+  width: 100%;
+}
+}

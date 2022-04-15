@@ -1,0 +1,364 @@
+html{
+
+  scroll-behavior: smooth;
+  }
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-size:cover;
+
+}
+div.main{
+    width:400px;
+    margin:50px auto 0px auto;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register{
+background: url("ABD.jpg");
+background-size:cover;
+    background-color:none;
+    width:100%;
+    font-size: 20px;
+    border-radius: 20px;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+    color:#fff;
+}
+form#register{
+    margin:40px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+input#name{
+    width: 100px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: 0;
+    padding:7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: hotpink;
+    color: black;
+    cursor:pointer;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+label,span h3{
+    text-shadow:1px 1px 5px rgba(0,0,0,0.3);
+}
+html{
+  scroll-behavior: smooth;
+  }
+
+  #body {
+  font-family: 'Nunito';
+  background: url(ABD.jpg) no-repeat center;
+  background-size:cover;
+  height:660px;
+}
+#login-card{
+  width:360px;
+  height:570px;
+  padding-top:10px;
+  border-radius: 25px;
+  margin:80px auto;
+  background-color: lightcyan;
+}
+#woman{
+  margin-top:45px;
+  border-color: lightskyblue;
+  border-radius:30px;
+  background-color: #ebf0fc
+}
+#man{
+  border-color: lightskyblue;
+  border-radius:30px;
+  background-color: #ebf0fc;
+}
+#more{
+  border-color: lightskyblue;
+  border-radius:30px;
+  background-color: #ebf0fc;
+  width:100%;
+  height:36px;
+  position:relative;
+  padding: 5px;
+  text-align:center;
+  text-transform: uppercase;
+}
+.continue{
+  text-align: center;
+  width: 300px;
+  padding: 10px;
+  font-size: 1.5rem;
+  height: 40px;
+  margin-top:80px;
+  border-radius:30px;
+  background-color: #D95AC4;
+  border-color:#D85DC4;
+}
+#btn{
+  position: absolute;
+  bottom: -35px;
+  padding: 5px;
+  margin: 30px 100px;
+  align-items: center;
+  border-radius: 5px;
+}
+#container{
+  margin-top:25px;
+}
+.btn-circle.btn-sm {
+  width: 40px;
+  height: 40px;
+  padding: 1px 0px;
+  border-radius: 25px;
+  font-size: 14px;
+  text-align: center;
+  margin: 8px;
+}
+label[for=remember]{
+  color:white;
+  margin-top:10px;
+  display:inline-block;
+  padding-bottom:0px;
+  padding-top:0px;
+  color: #8000ff;
+  text-align:center;
+}
+input[type=checkbox] {
+  display:inline-block;
+  vertical-align:center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body1{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: url(ABD.jpg) no-repeat center;
+  background-size: cover;
+}
+.wrapper{
+  width: 350px;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 5px 5px 30px black;
+}
+.wrapper .title{
+  color: black;
+  margin-top: 70px;
+  line-height: 65px;
+  text-align: center;
+  background: white;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 20px 20px 0 0;
+}
+.wrapper .box{
+  padding: 20px 30px;
+  background: whitesmoke;
+  border-radius: 20px;
+}
+.wrapper .box .label1{
+  display: flex;
+  height: 53px;
+  width: 100%;
+  align-items: center;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+  margin: 10px 0;
+  padding-left: 20px;
+transition: all 0.3s ease;
+}
+#option-1:checked ~ .option-1,
+#option-2:checked ~ .option-2,
+#option-3:checked ~ .option-3,
+#option-4:checked ~ .option-4,
+#option-5:checked ~ .option-5,
+#option-6:checked ~ .option-6{
+  background: linear-gradient(hotpink,lightskyblue,aqua);
+  border-color: #333;
+}
+.wrapper .box .dot{
+  height: 20px;
+  width: 20px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+
+}
+.label1{
+  height: 20px;
+  width: 20px;
+
+  border-radius: 50%;
+  position: relative;
+}
+#option-1:checked ~ .option-1 .dot,
+#option-2:checked ~ .option-2 .dot,
+#option-3:checked ~ .option-3 .dot,
+#option-4:checked ~ .option-4 .dot,
+#option-5.checked ~ .option-5 .dot,
+#option-6:checked ~ .option-6 .dot{
+  background: #fff;
+}
+.box .label1 .dot::before{
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2);
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+
+}
+#option-1:checked ~ .option-1 .dot::before,
+#option-2:checked ~ .option-2 .dot::before,
+#option-3:checked ~ .option-3 .dot::before,
+#option-4:checked ~ .option-4 .dot::before,
+#option-5:checked ~ .option-5 .dot::before,
+#option-6:checked ~ .option-6 .dot::before{
+  background: black;
+  transform: translate(-50%, -50%) scale(1);
+}
+.wrapper .box  .text{
+color:black;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+  transition: color 0.3s ease;
+}
+.label1
+{
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+#option-1:checked ~ .option-1 .text,
+#option-2:checked ~ .option-2 .text,
+#option-3:checked ~ .option-3 .text,
+#option-4:checked ~ .option-4 .text,
+#option-5:checked ~ .option-5 .text,
+#option-6:checked ~ .option-6 .text{
+  color: black;
+}
+#option-1:checked ~ .option-1 .text,
+#option-2:checked ~ .option-2 .text,
+#option-3:checked ~ .option-3 .text,
+#option-4:checked ~ .option-4 .text,
+#option-5:checked ~ .option-5 .text,
+#option-6:checked ~ .option-6 .text{
+  color: black;
+}
+.wrapper .box input[type="radio"]{
+  display: none;
+  background: linear-gradient(lightgrey,lightcyan,lightskyblue) ;
+}
+.a1{
+  text-decoration: none;
+  display:inline-block;
+  padding:15px 100px;
+  border-radius: 25px;
+  background-color:pink;
+
+}
+.a1:hover{
+  background: linear-gradient(lightgrey,lightcyan,lightskyblue) ;
+  color:black;
+}
+#body3 {
+    font-family: 'Nunito';
+    background: url(ABD.jpg) no-repeat center;
+    background-size:cover;
+    height:660px;
+  }
+  #login-card{
+    width:360px;
+    height:570px;
+    padding-top:10px;
+    border-radius: 25px;
+    margin:80px auto;
+    background-color: lightcyan;
+  }
+  #women{
+    margin-top:45px;
+    border-color: lightskyblue;
+    border-radius:30px;
+    background-color: #ebf0fc
+  }
+  #men{
+    border-color: lightskyblue;
+    border-radius:30px;
+    background-color: #ebf0fc;
+  }
+  #everyone{
+    border-color: lightskyblue;
+    border-radius:30px;
+    background-color: #ebf0fc;
+
+  }
+  #button{
+    height: 40px;
+    margin-top:80px;
+    border-radius:30px;
+    background-color: #D95AC4;
+    border-color:#D85DC4;
+  }
+  #btn2{
+    position: absolute;
+  bottom: -75px;
+    padding: 5px;
+    margin: 30px 100px 0px 100px;
+    align-items: center;
+    border-radius: 5px;
+  }
+  #container{
+    margin-top:25px;
+  }
+  .btn-circle.btn-sm {
+    width: 40px;
+    height: 40px;
+    padding: 1px 0px;
+    border-radius: 25px;
+    font-size: 14px;
+    text-align: center;
+    margin: 8px;
+  }
+  .label2[for=remember]{
+    color:white;
+    font-size: 1.5rem;
+    margin-top:10px;
+    display:inline-block;
+    padding-bottom:0px;
+    padding-top:0px;
+    color: #8000ff;
+    text-align:center;
+  }
+  .input2 [type=checkbox] {
+    display:inline-block;
+    vertical-align:center;
+  }
